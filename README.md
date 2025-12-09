@@ -25,16 +25,16 @@ Responsive game board
 
 Hand-built UI with framer-motion animations
 
-🔥 Built entirely at age 14 — as part of a future NVIDIA intern portfolio.
+ Built entirely at age 14 — as part of a future NVIDIA intern portfolio.
 
 because learning starts NOW.
 
-✨ Features
-💥 Cyberpunk Animated UI
+** Features
+ Cyberpunk Animated UI
 
 Neon gradients, rotating VFX borders, motion blur, glitch effects, particles.
 
-🐍💧︻デ═一 GIF-Powered Combat
+🐍, 💧 and ︻デ═一 GIF-Powered Combat
 
 Sprites animate and glow inside the arena.
 
@@ -88,7 +88,7 @@ SWG_REACT_GAME
 ├── package.json
 ├── vite.config.js
 └── README.md
-
+TO ACCESS OR PLAY THE GAME,GO TO https://vishwesh-aieng.github.io/Cyberpunk-SWG-Neon-Animated-Battle-Engine/
 📦 Installation:                                                                                                                                                      
 Clone the repo
 git clone https://github.com/YOUR-USERNAME/SWG_REACT_GAME.git
