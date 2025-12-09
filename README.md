@@ -111,10 +111,6 @@ Add your own screenshots here:
 /public/screenshots/cutscene1.png
 /public/screenshots/cutscene2.png
 
-
-Example placeholder:
-
-<p align="center"> <img src="cutscene1.png" width="60%"> </p> <p align="center"> <img src="cutscene2.png" width="60%"> </p>
 🧠 Code Snippet (Sprite Engine)
 function Sprite({ which, big = false }) {
   const choice = choices.find((c) => c.id === which);
