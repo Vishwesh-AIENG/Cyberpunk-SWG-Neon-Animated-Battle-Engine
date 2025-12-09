@@ -89,7 +89,8 @@ SWG_REACT_GAME
 Clone the repo
 git clone https://github.com/YOUR-USERNAME/SWG_REACT_GAME.git
 cd SWG_REACT_GAME
-
+Download from https://nodejs.org
+ (LTS version recommended)
 Install dependencies
 npm install
 
