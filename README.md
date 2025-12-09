@@ -131,54 +131,24 @@ return (
 );
 }
 ```
+🛠 Recommended Commit Naming Style:
 
-Quick instructions
-
-
-Open README.md in the GitHub web editor or in VS Code.
-
-
-Find the broken single-line snippet you highlighted.
-
-
-Delete the broken text and paste the fenced block above in its place.
-
-
-Commit with a message like:
-
-
-docs: fix README code block for Sprite component
-
-
-
-Preview the README on GitHub — the snippet should now show as a highlighted multi-line JSX code block.
-
-
-
-Extra tips
-
-
-Use the jsx language tag (as above) so GitHub does JSX highlighting.
-
-
-If you want to display inline < or { characters outside a code fence, escape them or wrap in a fenced block.
-
-
-If you want a smaller inline snippet elsewhere, use single backticks: `const x = 1`.
-
-
-Would you like me to scan the rest of the README for other formatting issues (bad links, missing images, bad fences) and produce a corrected file you can paste in one go?
-
-
-🛠 Recommended Commit Naming Style
 Type	Example	Meaning
+
 feat:	feat: add neon glitch system	New feature
+
 fix:	fix: GIF path resolution	Bug fix
+
 ui:	ui: adjust particle intensity	UI/Styling change
+
 perf:	perf: reduce animation lag	Performance improvement
+
 refactor:	refactor: cleanup Sprite logic	Code improvement
+
 docs:	docs: update README with badges	Documentation update
-🌿 Recommended Branching Strategy
+
+🌿 Recommended Branching Strategy:
+
 main        → always stable and deployable  
 dev         → active development  
 feature/*   → new features  
