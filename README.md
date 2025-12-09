@@ -2,11 +2,15 @@
 A real-time cyberpunk combat simulator built with React, Vite, and Framer Motion. Features include GIF-powered sprite animations, glitch effects, neon borders, dynamic particle systems, sound cues, and a cutscene renderer that synchronizes visuals and audio. Designed and implemented at age 14 as a step for future foundations
 🚀 CYBERPUNK SNAKE • WATER • GUN
 Animated Neon Battle Engine — Built by a 14-year-old aspiring NVIDIA Intern
-<p align="center"> <img src="banner.png" width="100%" alt="Neon Cyberpunk Banner"/> </p> <p align="center"> <img src="preview.gif" width="75%" alt="Gameplay Preview GIF"/> </p>
+<p align="center">
+  <img src="neon_banner.png" width="100%" alt="Cyberpunk SWG Neon Banner"/>
+</p>
 ⚡ Tech Stack
 <p align="center"> <img src="https://img.shields.io/badge/React-61DBFB?logo=react&style=for-the-badge"/> <img src="https://img.shields.io/badge/Vite-646CFF?logo=vite&style=for-the-badge"/> <img src="https://img.shields.io/badge/Framer--Motion-FF3366?logo=framer&style=for-the-badge"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&style=for-the-badge"/> <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&style=for-the-badge"/> </p> <p align="center"> <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge"/> <img src="https://img.shields.io/badge/Version-1.0.0-purple?style=for-the-badge"/> <img src="https://img.shields.io/badge/Made%20With-%E2%9A%A1%20Neon%20Energy-orange?style=for-the-badge"/> </p>
 🎮 Overview
-
+<p align="center">
+  <img src="preview.gif" width="75%" alt="Cyberpunk SWG Gameplay Preview">
+</p>
 This project is a Cyberpunk-themed, animated Snake-Water-Gun battle engine featuring:
 
 Full sprite-based GIF combat
