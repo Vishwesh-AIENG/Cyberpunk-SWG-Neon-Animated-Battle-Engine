@@ -3,12 +3,17 @@ import { motion, AnimatePresence } from "framer-motion";
 import "./index.css";
 
 /* Choices with GIF paths + emoji fallback */
+const base = import.meta.env.BASE_URL;
 const choices = [
-  { id: "snake", name: "Snake", label: "🐍", img: "/assets/snake.gif" },
-  { id: "water", name: "Water", label: "💧", img: "/assets/water.gif" },
-  { id: "gun", name: "Gun", label: "︻デ═一", img: "/assets/gun.gif" },
+  { id: "snake", name: "Snake", label: "🐍", img: `${base}assets/snake.gif` },
+  { id: "water", name: "Water", label: "💧", img: `${base}assets/water.gif` },
+  { id: "gun", name: "Gun", label: "︻デ═一", img: `${base}assets/gun.gif` },
 ];
-
+const sounds = {
+  cutscene: new Audio(`${base}assets/cutscene.mp3`),
+  win: new Audio(`${base}assets/win.mp3`),
+  loss: new Audio(`${base}assets/loss.mp3`),
+};
 function decideResult(player, computer) {
   if (player === computer) return "draw";
   if (
